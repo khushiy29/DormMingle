@@ -1,0 +1,44 @@
+.container {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.options:last-child {
+  margin-bottom: 0;
+}
+
+.image-1, .image-2 {
+  background-size: cover;
+  height: 280px;
+  width: 350px;
+  margin-left: 20px;
+}
+
+.button {
+  background-color: #008CBA;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #004366;
+}

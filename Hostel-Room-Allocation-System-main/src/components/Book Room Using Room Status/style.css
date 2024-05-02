@@ -1,0 +1,156 @@
+.error{
+    text-align: center;
+    color: red;
+}
+
+.composeTitle{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.composeInput{
+    display: block;
+    width: 1100px;
+    height: auto;
+    box-shadow: 5px 5px 10px 5px #ccc;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 20px 70px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.composeInput p{
+    margin-bottom: 10px;
+}
+
+.composeInput input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    font-size: 20px;
+    padding: 3px 10px;
+    font-weight: 100;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-bottom: 30px;
+}
+
+.composeInput textarea{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    font-size: 20px;
+    padding: 3px 10px;
+    font-weight: 100;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-bottom: 30px;
+}
+
+.composebtn{
+    display: block;
+    font-size: 20px;
+    padding: 6px 20px;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(130, 147, 246);
+    color: white;
+    border: none;
+    height: 45px;
+}
+
+.composebtn:hover{
+    cursor: pointer;
+    background-color: rgb(61, 75, 153);
+}
+
+@media screen and (max-width: 550px) {
+    .composeTitle{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    .composeInput{
+        display: block;
+        width: 270px;
+        height: auto;
+        box-shadow: 5px 5px 10px 5px #ccc;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        padding: 20px 30px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    .composeInput p{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    
+    .composeInput input{
+        width: 230px;
+        height: 30px;
+        border-radius: 10px;
+        border-width: 2px;
+        border-color: black;
+        font-size: 16px;
+        padding: 3px 10px;
+        font-weight: 100;
+        font-family: 'Space Grotesk', sans-serif;
+        margin-bottom: 30px;
+    }
+    
+    .composeInput textarea{
+        border-radius: 10px;
+        border-width: 2px;
+        border-color: black;
+        font-size: 16px;
+        padding: 3px 10px;
+        font-weight: 100;
+        font-family: 'Space Grotesk', sans-serif;
+        margin-bottom: 30px;
+        width: 230px;
+    }
+    
+    .composebtn{
+        display: block;
+        font-size: 16px;
+        padding: 6px 20px;
+        font-weight: 700;
+        font-family: 'Space Grotesk', sans-serif;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-color: rgb(130, 147, 246);
+        color: white;
+        border: none;
+        height: 45px;
+    }
+    
+    .composebtn:hover{
+        cursor: pointer;
+        background-color: rgb(61, 75, 153);
+    }
+}

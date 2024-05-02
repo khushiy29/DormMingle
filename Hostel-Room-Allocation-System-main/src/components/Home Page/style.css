@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 90vw;
+    margin-left: 80px;
+    background-color: #ffffff;
+    animation: swipeRight 1s ease forwards;
+  }
+
+.home-text{
+  display: flex;
+  flex-direction: column;
+}
+.hero-text{
+  font-size: 40pt;
+}
+.hero-text1{
+  font-size: 20pt;
+  margin-top: 20px;
+}
+.hero-text2{
+  font-size: 25pt;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    background-image: url("C:\Users\yaduk\Downloads\hostelimg.jpg");
+  
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Attach the background image to the viewport to create the parallax effect */
+
+   
+}
+
+/* Add animation keyframes for swipe effect */
+@keyframes swipeRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes swipeLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+  .title1 {
+    font-size: 3rem;
+    margin-top: 5rem;
+    color: #fdfdfd;
+    background-color: #403e3e;
+    opacity: 0.8;
+    padding: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 6rem;
+  
+  }
+  
+  .btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    margin:0px 70px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-bottom: 1rem;
+    height: 58px;
+    width: 276px;
+  }
+  
+  .button-container button{
+      border: none;
+    background-color: #007bff;
+    height: 58px;
+    width: 276px;
+  }
+
+  .button-container button{
+    background-color: #e88739;
+  }
+  
+  .btn:hover {
+    background-color: #a95917;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+
+  

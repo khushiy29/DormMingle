@@ -1,0 +1,58 @@
+
+.heading {
+  font-size: 36px;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 40px;
+ 
+ 
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.image-1{
+  background-image: url("C:\Users\yaduk\Downloads\randomRoomate.jpg");
+  height: 280px;
+  width: 350px;
+  margin-left: 20px;
+}
+.image-2{
+  background-image: url("C:\Users\yaduk\Downloads\choiceRoomate.jpg");
+  height: 300px;
+  width: 350px;
+  margin-left: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0px 50px ;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  max-width: 400px; /* Limit card width */
+}
+.friend{
+    padding: 27px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #666;
+  padding: 15px;
+}
